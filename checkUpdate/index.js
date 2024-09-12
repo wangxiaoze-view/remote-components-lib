@@ -1,126 +1,126 @@
-import R from "fs";
+import J from "fs";
 import f from "chalk";
-import C from "inquirer";
-import { spawn as Z } from "child_process";
-(function(d, x) {
-  const s = g, i = d();
+import N from "inquirer";
+import { spawn as M } from "child_process";
+function u(p, x) {
+  const r = b();
+  return u = function(i, d) {
+    return i = i - 294, r[i];
+  }, u(p, x);
+}
+(function(p, x) {
+  const r = u, i = p();
   for (; ; )
     try {
-      if (-parseInt(s(468)) / 1 + -parseInt(s(462)) / 2 + parseInt(s(420)) / 3 + parseInt(s(471)) / 4 + parseInt(s(427)) / 5 + parseInt(s(432)) / 6 * (parseInt(s(463)) / 7) + parseInt(s(470)) / 8 * (-parseInt(s(422)) / 9) === x) break;
+      if (parseInt(r(311)) / 1 * (parseInt(r(351)) / 2) + parseInt(r(294)) / 3 + -parseInt(r(305)) / 4 * (-parseInt(r(343)) / 5) + -parseInt(r(328)) / 6 * (-parseInt(r(312)) / 7) + -parseInt(r(338)) / 8 * (parseInt(r(335)) / 9) + -parseInt(r(325)) / 10 + parseInt(r(315)) / 11 * (parseInt(r(314)) / 12) === x) break;
       i.push(i.shift());
     } catch {
       i.push(i.shift());
     }
-})(h, 242669);
-function g(d, x) {
-  const s = h();
-  return g = function(i, b) {
-    return i = i - 415, s[i];
-  }, g(d, x);
-}
-function h() {
-  const d = ["smallVersion", ", 项目依赖的版本为：", "development", `
- 安装失败, 重新执行 install 命令`, "1418765XwoqHF", "max", `
- 当前的环境为 生产环境，为保证项目的稳定运行, 线上不支持自动更新 
- `, "match", "npm", "1259160IazavZ", "table", "checkbox", "toString", "filter", "pnpm", "请选择依赖进行大版本更新?", "stringify", "red", `
+})(b, 991757);
+function b() {
+  const p = ["map", "close", "请选择依赖进行大版本更新?", "checkbox", "proVersion", "6MZsuJv", `
+⬆ 大版本依赖更新提示：如果进行升更新会直接升级会导致项目组件的兼容问题，新版本的API不兼容`, "bold", "length", "smallVersion", "npm", "857247WgvfiA", "log", "development", "/package.json", `
+ 安装失败, 重新执行 install 命令`, "padEnd", "stdout", "vue", "max", "name", "dependencies", "375052pOsezF", "data", "yarn", `
+⬆ 小版本依赖更新提示：处理版本兼容与项目版本一致~`, "push", "版本说明：插件依赖的版本为：", "434373YsCqsI", "1120tcReYT", `
  当前的环境为 开发环境
- `, "list", "proVersion", `
- 安装成功, 重新执行 install 命令`, "bigVersion", "vue", "close", "padEnd", "log", "prompt", "peerDependencies", `
+ `, "96ZOjmPp", "810799wHdmFt", "greenBright", "join", "includes", `
  保证插件版本与项目版本一致，否则可能会导致项目运行异常 
-`, "stdout", "bold", "includes", "map", "length", "vant", "entries", "find", `
- pluginPkg参数不能为空, 缺少插件依赖包，请检查插件依赖包是否存在！
-`, "810962AHkKfH", "7WxfCJN", "forEach", "version", `
+`, "install", "filter", "manager", "vant", "stringify", "6930240kxmHbb", "element-plus", "pnpm", "4602RvtSPS", "list", "子进程退出，退出码：", ", 项目依赖的版本为：", "find", "green", `
  依赖正在更新中, 请稍等... 
-`, `
-⬆ 大版本依赖更新提示：如果进行升更新会直接升级会导致项目组件的兼容问题，新版本的API不兼容`, "191382LPlXYZ", "请选择依赖进行小版本更新?", "8BbMZpj", "1840500RNDRAy", "name", "yarn", "push", "/package.json", "manager", `
-⬆ 小版本依赖更新提示：处理版本兼容与项目版本一致~`, "element-plus", "1035588MoxKKL", "install", "4134618aRqUIx"];
-  return h = function() {
-    return d;
-  }, h();
+`, "1206XDKDVA", "peerDependencies", "red", "109576gJwrjB", "forEach", "table", "toString", "进程已退出 ⏏️", "65vNHhhx", `
+ pluginPkg参数不能为空, 缺少插件依赖包，请检查插件依赖包是否存在！
+`, "version"];
+  return b = function() {
+    return p;
+  }, b();
 }
-async function O(d) {
-  const x = g;
-  console[x(449)](f.red[x(454)](x(452)));
-  let s = {};
-  const i = [x(419), x(446), x(458)];
-  function b(c) {
-    const n = x, e = c[n(430)](/\d+/g);
-    return { versionString: (e == null ? void 0 : e.join("")) || "", versionBig: e && e[n(457)] ? e[0] : "" };
+async function z(p) {
+  const x = u;
+  console.log(f.red[x(353)](x(319)));
+  let r = {};
+  const i = [x(326), x(301), x(323)];
+  function d(o) {
+    const e = x, n = o.match(/\d+/g);
+    return { versionString: (n == null ? void 0 : n[e(317)]("")) || "", versionBig: n && n.length ? n[0] : "" };
   }
-  function y(c, n) {
-    const e = x;
-    let { versionString: a } = b(c), { versionString: t } = b(n);
-    const o = Math[e(428)](a.length, t.length);
-    return a.length < o && (a = a[e(448)](o, "0")), t[e(457)] < o && (t = t[e(448)](o, "0")), Number(t) > Number(a);
+  function w(o, e) {
+    const n = x;
+    let { versionString: s } = d(o), { versionString: t } = d(e);
+    const c = Math[n(302)](s.length, t[n(354)]);
+    return s.length < c && (s = s[n(299)](c, "0")), t[n(354)] < c && (t = t[n(299)](c, "0")), Number(t) > Number(s);
   }
-  function S(c, n) {
-    const { versionBig: e } = b(c), { versionBig: a } = b(n);
-    return Number(a) > Number(e);
+  function j(o, e) {
+    const { versionBig: n } = d(o), { versionBig: s } = d(e);
+    return Number(s) > Number(n);
   }
-  function j(c, n, e) {
-    const a = x, t = [], o = [], l = { name: c, proVersion: n, version: s[a(451)][c] };
-    y(n, s[a(451)][c]) && t[a(415)](l), S(n, s[a(451)][c]) && o[a(415)](l), e && e({ smallConfig: t, bigConfig: o });
+  function C(o, e, n) {
+    const s = x, t = [], c = [], l = { name: o, proVersion: e, version: r[s(336)][o] };
+    w(e, r[s(336)][o]) && t[s(309)](l), j(e, r[s(336)][o]) && c.push(l), n && n({ smallConfig: t, bigConfig: c });
   }
-  async function P(c, n, e, a, t) {
-    const o = x;
+  async function D(o, e, n, s, t) {
+    const c = x;
     try {
-      const l = await C[o(450)](c);
-      if ((l[o(423)] || [])[o(457)] > 0 || (l[o(445)] || []).length > 0) {
-        const I = await C.prompt(n);
-        if (I[o(417)] === "跳过") throw new Error("进程已退出 ⏏️");
-        const B = e[o(456)]((r) => l[o(423)][o(455)](r[o(472)]) ? r : null).filter(Boolean), M = a[o(456)]((r) => l.bigVersion.includes(r[o(472)]) ? r : null)[o(436)](Boolean), N = [...B, ...M];
-        for (let r = 0; r < N[o(457)]; r++) {
-          const m = N[r];
-          s[o(451)][m[o(472)]] && (s[o(451)][m[o(472)]] = "" + m[o(443)]);
+      const l = await N.prompt(o);
+      if ((l[c(355)] || [])[c(354)] > 0 || (l.bigVersion || []).length > 0) {
+        const v = await N.prompt(e);
+        if (v[c(322)] === "跳过") throw new Error(c(342));
+        const B = n[c(346)]((a) => l.smallVersion[c(318)](a[c(303)]) ? a : null)[c(321)](Boolean), H = s.map((a) => l.bigVersion[c(318)](a[c(303)]) ? a : null).filter(Boolean), S = [...B, ...H];
+        for (let a = 0; a < S[c(354)]; a++) {
+          const I = S[a];
+          r[c(336)][I[c(303)]] && (r.peerDependencies[I.name] = "" + I[c(350)]);
         }
-        t && R.writeFile(t + o(416), JSON[o(439)](s, null, 2), (r) => {
-          r ? console.error(r) : A(I[o(417)]);
+        t && J.writeFile(t + c(297), JSON[c(324)](r, null, 2), (a) => {
+          a ? console.error(a) : P(v.manager);
         });
       }
     } catch (l) {
-      console[o(449)](l);
+      console[c(295)](l);
     }
   }
-  function A(c) {
-    const n = x;
-    console[n(449)](f.green[n(454)](n(466)));
-    const e = Z(c, [n(421)], {});
-    e[n(453)].on("data", (a) => {
-      const t = n;
-      console[t(449)]("" + a[t(435)]());
-    }), e.on(n(447), (a) => {
-      const t = n;
-      console.log("子进程退出，退出码：" + a), a === 0 ? console[t(449)](f[t(440)][t(454)](t(444))) : console[t(449)](f[t(440)][t(454)](t(426)));
+  function P(o) {
+    const e = x;
+    console[e(295)](f[e(333)][e(353)](e(334)));
+    const n = M(o, [e(320)], {});
+    n[e(300)].on(e(306), (s) => {
+      const t = e;
+      console[t(295)]("" + s[t(341)]());
+    }), n.on(e(347), (s) => {
+      const t = e;
+      console[t(295)](t(330) + s), s === 0 ? console[t(295)](f[t(337)][t(353)](`
+ 安装成功, 重新执行 install 命令`)) : console.log(f[t(337)][t(353)](t(298)));
     });
   }
-  const { pkg: D, include: E = i, mode: H = x(425), dir: K, pluginPkg: w, exclude: v = [] } = d, k = [], u = [];
-  if (!w) return console[x(449)](f[x(440)][x(454)](x(461)));
-  s = w || {};
-  const V = (c) => {
-    const n = x;
-    return c[n(456)]((e) => ({ name: e.name, version: e[n(465)], proVersion: e.proVersion, tip: "版本说明：插件依赖的版本为：" + e[n(465)] + n(424) + e.proVersion }));
+  const { pkg: O, include: A = i, mode: E = "development", dir: F, pluginPkg: V, exclude: h = [] } = p, k = [], m = [];
+  if (!V) return console.log(f[x(337)][x(353)](x(344)));
+  r = V || {};
+  const y = (o) => {
+    const e = x;
+    return o[e(346)]((n) => ({ name: n[e(303)], version: n[e(345)], proVersion: n[e(350)], tip: e(310) + n[e(345)] + e(331) + n[e(350)] }));
   };
-  v == null || v[x(464)]((c) => {
-    const n = x;
-    s.peerDependencies[c] && delete s[n(451)][c];
+  h == null || h[x(339)]((o) => {
+    const e = x;
+    r.peerDependencies[o] && delete r[e(336)][o];
   });
-  for (const [c, n] of Object[x(459)](D.dependencies))
-    E.includes(c) && j(c, n, ({ smallConfig: e, bigConfig: a }) => {
+  for (const [o, e] of Object.entries(O[x(304)]))
+    A.includes(o) && C(o, e, ({ smallConfig: n, bigConfig: s }) => {
       const t = x;
-      k[t(415)](...e), u[t(415)](...a);
+      k[t(309)](...n), m[t(309)](...s);
     });
-  const p = V(k[x(436)]((c) => {
-    const n = x;
-    return u[n(457)] ? u[n(460)]((e) => c.name !== e[n(472)]) : c;
+  const _ = y(k[x(321)]((o) => {
+    const e = x;
+    return m[e(354)] ? m[e(332)]((n) => o[e(303)] !== n[e(303)]) : o;
   }));
-  p[x(457)] && (console[x(449)](f.greenBright[x(454)](x(418))), console[x(433)](p));
-  const _ = V(u);
-  if (_[x(457)] && (console[x(449)](f[x(440)][x(454)](x(467))), console[x(433)](_)), H === x(425)) {
-    console.log(f[x(440)][x(454)](x(441)));
-    const c = p[x(457)] ? [{ type: x(434), choices: p.map((a) => a[x(472)]), name: x(423), message: x(469) }] : [], n = _[x(457)] ? [{ type: x(434), choices: _.map((a) => a[x(472)]), name: x(445), message: x(438) }] : [], e = [{ type: x(442), choices: [x(431), x(473), x(437), "跳过"], name: x(417), message: "请选择安装依赖的方式?" }];
-    await P([...c, ...n], e, p, _, K);
-  } else console[x(449)](f.red[x(454)](x(429)));
+  _.length && (console[x(295)](f[x(316)][x(353)](x(308))), console[x(340)](_));
+  const g = y(m);
+  if (g.length && (console.log(f[x(337)][x(353)](x(352))), console[x(340)](g)), E === x(296)) {
+    console[x(295)](f[x(337)][x(353)](x(313)));
+    const o = _[x(354)] ? [{ type: "checkbox", choices: _.map((s) => s[x(303)]), name: "smallVersion", message: "请选择依赖进行小版本更新?" }] : [], e = g[x(354)] ? [{ type: x(349), choices: g[x(346)]((s) => s[x(303)]), name: "bigVersion", message: x(348) }] : [], n = [{ type: x(329), choices: [x(356), x(307), x(327), "跳过"], name: x(322), message: "请选择安装依赖的方式?" }];
+    await D([...o, ...e], n, _, g, F);
+  } else console[x(295)](f[x(337)][x(353)](`
+ 当前的环境为 生产环境，为保证项目的稳定运行, 线上不支持自动更新 
+ `));
 }
 export {
-  O as default
+  z as default
 };
