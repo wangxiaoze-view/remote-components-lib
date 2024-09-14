@@ -34,11 +34,13 @@
 
 不过想要使用`file:`的形式，那么就需要你将github源码包下载在项目的根目录
 
-### cdn的模式
+### ~~cdn的模式~~
+
+**由于引入环境存在不确定性，因此cdn模式将不被支持**
 
 ```ts
-import 'https://remote-components-lib.vercel.app/element/LazyImage/index.css'
-import { EleLazyImage } from 'https://remote-components-lib.vercel.app/'
+// import 'https://remote-components-lib.vercel.app/element/LazyImage/index.css'
+// import { EleLazyImage } from 'https://remote-components-lib.vercel.app/'
 ```
 
-使用cdn的模式就需要将源码包上出到服务器或者其他地方，然后通过cdn的方式引入。 目前cdn支持的版本有：vite, webpack暂不支持
+~~使用cdn的模式就需要将源码包上出到服务器或者其他地方，然后通过cdn的方式引入。 目前cdn支持的版本有：vite, webpack暂不支持~~
