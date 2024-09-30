@@ -2,7 +2,7 @@
 
 > 这是一个用于加载远程组件的简单库, 只支持`vue`, 不考虑其他的框架；它做到了按需加载，并且可以支持按需加载的组件的样式。 同时还配套一些常用的工具库，hooks，enums等等； 它最大的一个特点就是小，即用即加载即渲染的方式，从而减少渲染，文件加载的开销。
 
-- [点击这里查看详细文档](https://docs.wangzevw.com/personal/remote-components-lib/info.html)
+- [点击这里查看详细文档](https://www.wangzevw.com/docs/remote-components-lib/info.html)
 
 ## 特性
 
